@@ -58,14 +58,14 @@ export interface PriceUpdate {
 }
 
 export const MARKET_CATEGORIES = [
+  { key: 'Cryptocurrency', label: 'Cryptocurrency', icon: '₿' },
+  { key: 'Stocks', label: 'Stocks', icon: '📈' },
+  { key: 'Economics', label: 'Economics', icon: '💰' },
+  { key: 'Technology', label: 'Technology', icon: '💻' },
+  { key: 'Space', label: 'Space', icon: '🚀' },
   { key: 'POLITICS', label: 'Politics', icon: '🏛️' },
   { key: 'SPORTS', label: 'Sports', icon: '⚽' },
-  { key: 'CRYPTO', label: 'Crypto', icon: '₿' },
-  { key: 'ECONOMY', label: 'Economy', icon: '📈' },
-  { key: 'FINANCE', label: 'Finance', icon: '💰' },
   { key: 'ENTERTAINMENT', label: 'Entertainment', icon: '🎬' },
-  { key: 'TECHNOLOGY', label: 'Technology', icon: '💻' },
-  { key: 'SOCIAL_MEDIA', label: 'Social Media', icon: '📱' },
   { key: 'WEATHER', label: 'Weather', icon: '🌦️' },
   { key: 'OTHER', label: 'Other', icon: '🔮' },
 ];

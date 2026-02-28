@@ -1,3 +1,4 @@
+-- Create transactions table
 CREATE TABLE IF NOT EXISTS transactions (
     id BIGSERIAL PRIMARY KEY,
     user_id BIGINT NOT NULL,
